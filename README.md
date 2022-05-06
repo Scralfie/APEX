@@ -1,17 +1,17 @@
 # APEX - Lap 2 project
 ## A habit tracking app for E-Sport Athletes
 
-Gebru Lap 1 Project Team Penguins:
+Gebru Lap 1 Project Team Apex:
 - Trina Yau
 - Alfie Kelly
-- Michael Harkins
+- Michael Harkins-Meloy
 - Dan Willis
 
 
 
 ## Description 
 
-
+A habit tracking website for training E-Sports athletes, keeping track of tasks for individual games.
 
 
 ---
@@ -23,26 +23,17 @@ Gebru Lap 1 Project Team Penguins:
 Installation is not required as this app has been deployed. However, prior to deployement, installation instructions consisted of:
 
 - Clone or download the repo
-- cd into the Lap1Project/server folder in your terminal 
-- Run all dependencies
-  - npm
-  - nodemon
-  - supertest
-  - express
-  - cors
-  - jest
-  - Docker
-  - EJS
+- cd into the Apex-Lap-2-Project folder in your terminal 
+- You can either run `npm install` and `npm start` or `docker compose up` depending on whether you would like to use a local MongoDB or one hosted on the cloud service MongoDB Atlas
 
 ## Usage
 
-This current release of the project has our server-side running on Heroku and client-side running on netlify. 
+This current release of the project is deployed on Heroku. 
   - Server and Client: https://apex-lap2-project.herokuapp.com/
 
 If you wish to run the application locally, please follow the following: 
-- Clone
+- Clone/install and start server
 - Go to http://localhost:3000/
-- cd to root folder in your terminal & run npm start to launch the server
 ---
 
 # Technologies 
@@ -55,7 +46,12 @@ If you wish to run the application locally, please follow the following:
   - Cors
   - Jest 
   - Supertest
-  - ejs
+  - EJS
+  - Axios
+  - Mongoose
+  - Json Web Token
+  - Bcrypt
+- MongoDB/MongoDB Atlas
 ---
 
 # Process
@@ -94,6 +90,7 @@ Organising and planning
 ## Challenges
 - Testing
 - JSON syntax
+- MongoDB queries
 
 ---
 
